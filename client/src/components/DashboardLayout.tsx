@@ -21,7 +21,7 @@ import {
 } from "@/components/ui/sidebar";
 import { getLoginUrl } from "@/const";
 import { useIsMobile } from "@/hooks/useMobile";
-import { BarChart3, Brain, LayoutDashboard, Lightbulb, LogOut, Map, PanelLeft, TrendingUp, Users } from "lucide-react";
+import { BarChart3, Brain, LayoutDashboard, Lightbulb, LogOut, Map, Network, PanelLeft, TrendingUp, Users } from "lucide-react";
 import { CSSProperties, useEffect, useRef, useState } from "react";
 import { useLocation } from "wouter";
 import { DashboardLayoutSkeleton } from './DashboardLayoutSkeleton';
@@ -33,6 +33,7 @@ const menuItems = [
   { icon: TrendingUp, label: "Oportunidades", path: "/opportunities" },
   { icon: BarChart3, label: "Planes de Carrera", path: "/career-plans" },
   { icon: Lightbulb, label: "Análisis de Fortalezas", path: "/strengths-analysis" },
+  { icon: Network, label: "Organigrama", path: "/organigrama" },
   { icon: Brain, label: "Recomendaciones IA", path: "/ai-recommendations" },
 ];
 

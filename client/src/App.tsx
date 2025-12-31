@@ -10,6 +10,7 @@ import Opportunities from "./pages/Opportunities";
 import CareerPlans from "./pages/CareerPlans";
 import StrengthsAnalysis from "./pages/StrengthsAnalysis";
 import AIRecommendations from "./pages/AIRecommendations";
+import Organigrama from "./pages/Organigrama";
 
 function Router() {
   return (
@@ -20,6 +21,7 @@ function Router() {
       <Route path={"/career-plans"} component={CareerPlans} />
       <Route path={"/strengths-analysis"} component={StrengthsAnalysis} />
       <Route path={"/ai-recommendations"} component={AIRecommendations} />
+      <Route path={"/organigrama"} component={Organigrama} />
       <Route path={"/404"} component={NotFound} />
       <Route component={NotFound} />
     </Switch>
